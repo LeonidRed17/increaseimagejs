@@ -1,4 +1,4 @@
-*{
+﻿*{
     margin:0px;
     box-sizing:border-box;
     padding:0px;
@@ -20,10 +20,14 @@ body{
 .galleryImage{
     height:300px;
     width:400px;
+    cursor:zoom-in;
+    border:3px solid rgb(231, 224, 224);
+    border-radius:5px;
 }
 /*Увеличенное состояние изображения*/
 .galleryImageIncreased{
     display: inline-block;
+    cursor:zoom-out;
     margin-top: 4%;
     max-height:85%;
     max-width:85%;
